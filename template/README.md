@@ -37,6 +37,8 @@ Installing "@project.name@" can be done either by searching for "@project.name@"
 @DESCRIPTION_2@
 
 ![@SCREENSHOT_2@](https://raw.githubusercontent.com/slothsoft/wordpress-github-repositories/master/readme/list-repositories-result.png)
+
+@DESCRIPTION_3@
      
      
 

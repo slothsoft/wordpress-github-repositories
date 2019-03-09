@@ -3,7 +3,6 @@ namespace test;
 
 use PHPUnit\Framework\TestCase;
 use slothsoft\RepositoryList;
-use DeepCopy\Filter\ReplaceFilter;
 
 class RepositoryListTest extends TestCase {
 

@@ -17,6 +17,8 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 @DESCRIPTION_2@
 
+@DESCRIPTION_3@
+
 ## Installation
 
 Installing "@project.name@" can be done either by searching for "@project.name@" via the "Plugins > Add New" screen in your WordPress dashboard, or by using the following steps:
