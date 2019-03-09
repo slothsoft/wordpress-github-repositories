@@ -32,11 +32,11 @@ Installing "GitHub Repositories" can be done by using the following steps:
 
 You define the plug-in with the shortcut `list-github-repositories`. Don't forget to define the user whose plug-ins you want to display, else you'll get mine:
 
-![List GitHub Repositories in Editor](https://github.com/slothsoft/wordpress-github-repositories/readme/list-repositories-edit.png)
+![List GitHub Repositories in Editor](https://raw.githubusercontent.com/slothsoft/wordpress-github-repositories/master/readme/list-repositories-edit.png)
 
 Afterwards you get a nice list with your repositories:
 
-![List GitHub Repositories in Action](https://github.com/slothsoft/wordpress-github-repositories/readme/list-repositories-result.png)
+![List GitHub Repositories in Action](https://raw.githubusercontent.com/slothsoft/wordpress-github-repositories/master/readme/list-repositories-result.png)
      
      
 
