@@ -4,7 +4,7 @@ use slothsoft\RepositoryList;
 /*
  * Plugin Name: @project.name@
  * Version: @project.version@
- * Plugin URI: http://slothsoft.de/
+ * Plugin URI: https://github.com/slothsoft/wordpress-github-repositories
  * Description: Lists all the repositories in your GitHub profile.
  * Author: Stef Schulz
  * Author URI: http://slothsoft.de/
