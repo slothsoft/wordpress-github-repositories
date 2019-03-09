@@ -1,15 +1,15 @@
 <?php
 /*
- * Plugin Name: github-repositories
- * Version: 1.0
+ * Plugin Name: @project.name@
+ * Version: @project.version@
  * Plugin URI: http://slothsoft.de/
  * Description: Lists all the repositories in your GitHub profile.
  * Author: Stef Schulz
  * Author URI: http://slothsoft.de/
- * Requires at least: 5.1
- * Tested up to: 5.1
+ * Requires at least: @PLUGIN_WORDPRESS_MIN@
+ * Tested up to: @PLUGIN_WORDPRESS_MAX@
  *
- * Text Domain: github-repositories
+ * Text Domain: @project.artifactId@
  */
 defined('ABSPATH') or die("Good bye and thanks for all the fish!");
 

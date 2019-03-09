@@ -1,11 +1,11 @@
-#  GitHub Repositories (for Wordpress)
+#  @project.name@ (for Wordpress)
 
 - **Author:** [Stef Schulz](mailto:s.schulz@slothsoft.de)
 - **Repository:** <https://github.com/slothsoft/wordpress-github-repositories>
 - **Open Issues:** <https://github.com/slothsoft/wordpress-github-repositories/issues>
 - **Wiki:** none
 
-Just a silly project to see if I can create WordPress plug-ins.
+@PLUGIN_SHORT_DESCRIPTION@
 
 
 
@@ -13,7 +13,7 @@ Just a silly project to see if I can create WordPress plug-ins.
 
 ### Prerequisites
 
-You need at least WordPress 5.1, or at least that is the version I tested against.
+You need at least WordPress @PLUGIN_WORDPRESS_MIN@, or at least that is the version I tested against.
 
 
 
@@ -30,13 +30,13 @@ Installing "GitHub Repositories" can be done by using the following steps:
 
 ### Using the Plug-in
 
-You define the plug-in with the shortcut `list-github-repositories`. Don't forget to define the user whose plug-ins you want to display, else you'll get mine.
+@DESCRIPTION_1@
 
-![List GitHub Repositories in Editor](https://raw.githubusercontent.com/slothsoft/wordpress-github-repositories/master/readme/list-repositories-edit.png)
+![@SCREENSHOT_1@](https://raw.githubusercontent.com/slothsoft/wordpress-github-repositories/master/readme/list-repositories-edit.png)
 
-Afterwards you get a nice list with your repositories.
+@DESCRIPTION_2@
 
-![List GitHub Repositories in Action](https://raw.githubusercontent.com/slothsoft/wordpress-github-repositories/master/readme/list-repositories-result.png)
+![@SCREENSHOT_2@](https://raw.githubusercontent.com/slothsoft/wordpress-github-repositories/master/readme/list-repositories-result.png)
      
      
 
