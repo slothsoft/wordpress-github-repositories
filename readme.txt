@@ -1,47 +1,42 @@
-=== github-repositories ===
-Contributors: hlashbrooke
-Donate link: http://www.hughlashbrooke.com/donate
-Tags: wordpress, plugin, template
-Requires at least: 3.9
-Tested up to: 4.0
-Stable tag: 1.0
-License: GPLv2 or later
+# GitHub Repositories
+Contributors: slothsoft
+Donate link: http://slothsoft.de
+Tags: github
+Requires at least: 5.1
+Requires PHP: 5.6
+Tested up to: 5.1
+Stable tag: trunk
+License: GPLv2
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-This is where you craft a short, punchy description of your plugin
+Just a silly project to see if I can create WordPress plug-ins.
 
-== Description ==
+## Description
 
-This is where you can give a much longer description of your plugin that you can use to explain just how it awesome it really is.
+You define the plug-in with the shortcut `list-github-repositories`. Don't forget to define the user whose plug-ins you want to display, else you'll get mine.
 
-== Installation ==
+Afterwards you get a nice list with your repositories.
 
-Installing "github-repositories" can be done either by searching for "github-repositories" via the "Plugins > Add New" screen in your WordPress dashboard, or by using the following steps:
+## Installation
 
-1. Download the plugin via WordPress.org
+Installing "GitHub Repositories" can be done by using the following steps:
+
+1. Download the plugin's ZIP via the green "Clone or download" button
 1. Upload the ZIP file through the 'Plugins > Add New > Upload' screen in your WordPress dashboard
 1. Activate the plugin through the 'Plugins' menu in WordPress
 
-== Screenshots ==
+## Screenshots
 
-1. Description of first screenshot named screenshot-1
-2. Description of second screenshot named screenshot-2
-3. Description of third screenshot named screenshot-3
+1. List GitHub Repositories in Editor
+2. List GitHub Repositories in Action
 
-== Frequently Asked Questions ==
+## Changelog
 
-= What is the plugin template for? =
-
-This plugin template is designed to help you get started with any new WordPress plugin.
-
-== Changelog ==
-
-= 1.0 =
-* 2012-12-13
+### 1.0
 * Initial release
 
-== Upgrade Notice ==
+## Upgrade Notice
+ 
+### 1.0
 
-= 1.0 =
-* 2012-12-13
-* Initial release
+This is the one and only version. Why wouldn't you use it?

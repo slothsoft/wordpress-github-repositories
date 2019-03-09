@@ -20,13 +20,23 @@ You need at least WordPress 5.1, or at least that is the version I tested agains
 
 ### Installing
 
-...uhm?
+Installing "GitHub Repositories" can be done by using the following steps:
+
+1. Download the plugin's ZIP via the green "Clone or download" button
+1. Upload the ZIP file through the 'Plugins > Add New > Upload' screen in your WordPress dashboard
+1. Activate the plugin through the 'Plugins' menu in WordPress
 
 
 
 ### Using the Plug-in
 
-...
+You define the plug-in with the shortcut `list-github-repositories`. Don't forget to define the user whose plug-ins you want to display, else you'll get mine:
+
+![List GitHub Repositories in Editor](https://github.com/slothsoft/wordpress-github-repositories/readme/list-repositories-edit.png)
+
+Afterwards you get a nice list with your repositories:
+
+![List GitHub Repositories in Action](https://github.com/slothsoft/wordpress-github-repositories/readme/list-repositories-result.png)
      
      
 
@@ -35,7 +45,7 @@ You need at least WordPress 5.1, or at least that is the version I tested agains
 
 **[1.0.0](https://github.com/slothsoft/wordpress-github-repositories/milestone/1?closed=1)**
 
-- dunno yet
+* Initial release
 
 
 
