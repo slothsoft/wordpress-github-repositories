@@ -30,13 +30,13 @@ You need at least WordPress 5.1, or at least that is the version I tested agains
      
      
 
-##  Versions
+##  Features
 
 
-| Version       | Info    |
-| ------------- | ------- |
-| [1.0.0](https://github.com/slothsoft/eclipse-builder-pattern/milestone/1?closed=1) | ... |
-   
+**[1.0.0](https://github.com/slothsoft/wordpress-github-repositories/milestone/1?closed=1)**
+
+- dunno yet
+
 
 
 ## License
