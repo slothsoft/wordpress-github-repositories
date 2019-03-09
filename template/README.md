@@ -5,7 +5,7 @@
 - **Open Issues:** <https://github.com/slothsoft/wordpress-github-repositories/issues>
 - **Wiki:** none
 
-@PLUGIN_SHORT_DESCRIPTION@
+@PLUGIN_SHORT_DESCRIPTION@ Note that I have no idea about PHP and what I'm doing, so this project should not be used as reference on how to do _anything_.
 
 
 
@@ -20,9 +20,9 @@ You need at least WordPress @PLUGIN_WORDPRESS_MIN@, or at least that is the vers
 
 ### Installing
 
-Installing "GitHub Repositories" can be done by using the following steps:
+Installing "@project.name@" can be done either by searching for "@project.name@" via the "Plugins > Add New" screen in your WordPress dashboard, or by using the following steps:
 
-1. Download the plugin's ZIP via the green "Clone or download" button
+1. Download the plugin via [this repository](https://raw.githubusercontent.com/slothsoft/wordpress-github-repositories/master/release/github-repositories-1.0.0.zip)
 1. Upload the ZIP file through the 'Plugins > Add New > Upload' screen in your WordPress dashboard
 1. Activate the plugin through the 'Plugins' menu in WordPress
 
