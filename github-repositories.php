@@ -35,7 +35,7 @@ function listGitHubRepositories($atts) {
     $result = '<ul>';
     foreach ($repositories as $repository) {
         $result = $result . '<li>';
-        $result = $result . '<b><a href="' . esc_url($repository->html_url) . '">' . $repository->name . '</a></b> - ' . $repository->description;
+        $result = $result . '<a href="' . esc_url($repository->html_url) . '"><b>' . $repository->name . '</b></a> - ' . $repository->description;
         $result = $result . '</li>';
     }
     $result = $result . '</ul>';
