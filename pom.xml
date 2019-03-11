@@ -5,7 +5,8 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>de.slothsoft.wordpress</groupId>
-	<artifactId>github-repositories</artifactId>
+	<artifactId>list-github-repositories</artifactId>
+	<name>GitHub Repositories</name>
 	<version>1.0.0</version>
 
 	<!-- I'm building with Maven because that's the only build tool I know how 
@@ -16,13 +17,15 @@
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 
 		<plugin-target>${project.build.directory}/${project.artifactId}/</plugin-target>
+		<svn-target>${project.build.directory}/svn/</svn-target>
 	</properties>
 
 	<build>
 		<plugins>
-			
-			<!-- There is a lot of copy&filter going on so I only have to maintain relevant values once. -->
-		
+
+			<!-- There is a lot of copy&filter going on so I only have to maintain 
+				relevant values once. -->
+
 			<plugin>
 				<artifactId>maven-resources-plugin</artifactId>
 				<version>3.1.0</version>
@@ -121,7 +124,44 @@
 					</execution>
 				</executions>
 			</plugin>
+
+			<!-- Prepare everything to be copied to SVN -->
+			<plugin>
+				<artifactId>maven-resources-plugin</artifactId>
+				<version>3.1.0</version>
+				<executions>
+					<execution>
+						<id>copy-svn-trunk</id>
+						<phase>package</phase>
+						<goals>
+							<goal>copy-resources</goal>
+						</goals>
+						<configuration>
+							<outputDirectory>${svn-target}/trunk</outputDirectory>
+							<resources>
+								<resource>
+									<directory>${plugin-target}</directory>
+								</resource>
+							</resources>
+						</configuration>
+					</execution>
+					<execution>
+						<id>copy-svn-assets</id>
+						<phase>package</phase>
+						<goals>
+							<goal>copy-resources</goal>
+						</goals>
+						<configuration>
+							<outputDirectory>${svn-target}/assets</outputDirectory>
+							<resources>
+								<resource>
+									<directory>readme/</directory>
+								</resource>
+							</resources>
+						</configuration>
+					</execution>
+				</executions>
+			</plugin>
 		</plugins>
 	</build>
-	<name>GitHub Repositories</name>
 </project>

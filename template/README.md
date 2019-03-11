@@ -22,7 +22,7 @@ You need at least WordPress @PLUGIN_WORDPRESS_MIN@, or at least that is the vers
 
 Installing "@project.name@" can be done either by searching for "@project.name@" via the "Plugins > Add New" screen in your WordPress dashboard, or by using the following steps:
 
-1. Download the plugin via [this repository](https://raw.githubusercontent.com/slothsoft/wordpress-github-repositories/master/release/github-repositories-1.0.0.zip)
+1. Download the plugin via [this repository](https://raw.githubusercontent.com/slothsoft/wordpress-github-repositories/master/release/list-github-repositories-1.0.0.zip)
 1. Upload the ZIP file through the 'Plugins > Add New > Upload' screen in your WordPress dashboard
 1. Activate the plugin through the 'Plugins' menu in WordPress
 
@@ -32,11 +32,11 @@ Installing "@project.name@" can be done either by searching for "@project.name@"
 
 @DESCRIPTION_1@
 
-![@SCREENSHOT_1@](https://raw.githubusercontent.com/slothsoft/wordpress-github-repositories/master/readme/list-repositories-edit.png)
+![@SCREENSHOT_1@](https://raw.githubusercontent.com/slothsoft/wordpress-github-repositories/master/readme/screenshot-1.png)
 
 @DESCRIPTION_2@
 
-![@SCREENSHOT_2@](https://raw.githubusercontent.com/slothsoft/wordpress-github-repositories/master/readme/list-repositories-result.png)
+![@SCREENSHOT_2@](https://raw.githubusercontent.com/slothsoft/wordpress-github-repositories/master/readme/screenshot-1.png)
 
 @DESCRIPTION_3@
      
