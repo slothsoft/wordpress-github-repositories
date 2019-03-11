@@ -1,5 +1,7 @@
 #  GitHub Repositories (for Wordpress)
 
+[![WordPress](https://img.shields.io/badge/WordPress-1.0.0-green.svg)](https://wordpress.org/plugins/list-github-repositories/)
+
 - **Author:** [Stef Schulz](mailto:s.schulz@slothsoft.de)
 - **Repository:** <https://github.com/slothsoft/wordpress-github-repositories>
 - **Open Issues:** <https://github.com/slothsoft/wordpress-github-repositories/issues>
@@ -22,7 +24,7 @@ You need at least WordPress 5.1, or at least that is the version I tested agains
 
 Installing "GitHub Repositories" can be done either by searching for "GitHub Repositories" via the "Plugins > Add New" screen in your WordPress dashboard, or by using the following steps:
 
-1. Download the plugin via [this repository](https://raw.githubusercontent.com/slothsoft/wordpress-github-repositories/master/release/list-github-repositories-1.0.0.zip)
+1. Download the plugin via [WordPress](https://wordpress.org/plugins/list-github-repositories/)
 1. Upload the ZIP file through the 'Plugins > Add New > Upload' screen in your WordPress dashboard
 1. Activate the plugin through the 'Plugins' menu in WordPress
 
