@@ -38,7 +38,7 @@ You define the plug-in with the shortcode `list-github-repositories`. Don't forg
 
 Afterwards you get a nice list with your repositories.
 
-![List GitHub Repositories in Action](https://raw.githubusercontent.com/slothsoft/wordpress-github-repositories/master/readme/screenshot-1.png)
+![List GitHub Repositories in Action](https://raw.githubusercontent.com/slothsoft/wordpress-github-repositories/master/readme/screenshot-2.png)
 
 Similarly you can use a shortcode like `[show-github-repository user="slothsoft" repository="wordpress-github-repositories"]` to show a single repository's HTML. GitHub parses the HTML itself, so you don't need to fear unsupported markup.
      
